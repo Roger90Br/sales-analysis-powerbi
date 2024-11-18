@@ -37,7 +37,7 @@ The **`financial-model.pbit`** file serves as a template for performing financia
 ### 📸 Visual Previews  
 
 #### Dashboard Overview  
-![Dashboard Overview](link_to_overview_image.png)  
+![Dashboard Overview](dashboard-overview.png)  
 
 #### Monthly Sales Trends  
 ![Monthly Sales Trends](link_to_monthly_sales_image.png)  
