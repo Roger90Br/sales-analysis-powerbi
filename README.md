@@ -1,7 +1,3 @@
-Com base no que você descreveu, podemos criar um **README.md** bem estruturado e informativo para destacar seus arquivos e o conteúdo do projeto no GitHub. Aqui está o modelo atualizado:  
-
----
-
 ## Sales Report and Financial Model in Power BI  
 
 This repository contains interactive Power BI files and a complementary PDF documenting sales performance and financial insights. These files were created to provide a clear and concise view of customer demographics, sales trends, and financial modeling.  
