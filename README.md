@@ -1,39 +1,73 @@
-# Análise de Vendas com Power BI
+Com base no que você descreveu, podemos criar um **README.md** bem estruturado e informativo para destacar seus arquivos e o conteúdo do projeto no GitHub. Aqui está o modelo atualizado:  
 
-Este repositório contém um relatório interativo de análise de vendas desenvolvido no **Power BI**, projetado para ajudar empresas a entenderem melhor suas métricas de desempenho, tendências de vendas e comportamento de clientes.
+---
 
-## 💡 Principais Métricas e Análises
-- **Receita Total**: Análise do total de vendas por período.
-- **Produtos Mais Vendidos**: Identificação dos itens com maior demanda.
-- **Desempenho por Região**: Comparação de vendas em diferentes localizações.
-- **Análise Temporal**: Tendências de vendas ao longo dos meses.
-- **Clientes Principais**: Segmentação de clientes com maior impacto na receita.
+## Sales Report and Financial Model in Power BI  
 
-## 🛠️ Funcionalidades
-- **Filtros Interativos**: Permite segmentar dados por período, região e categoria de produto.
-- **Gráficos Visuais**: Gráficos de barras, linhas e mapas para representar dados de forma clara.
-- **KPIs Chave**: Indicadores para receita, margem de lucro e taxa de crescimento.
+This repository contains interactive Power BI files and a complementary PDF documenting sales performance and financial insights. These files were created to provide a clear and concise view of customer demographics, sales trends, and financial modeling.  
 
-## 📸 Capturas de Tela
-### Dashboard Principal
-![Dashboard Principal](link_para_imagem_dashboard_principal.png)
+### 📂 Files in This Repository  
+- **`financial-model.pbit`**: A reusable template for financial analysis, allowing users to plug in their data and generate insights.  
+- **`sales-report.pbix`**: A detailed sales report showcasing key metrics, visualizations, and filters.  
+- **`sales-report-documentation.pdf`**: A static PDF summarizing the main insights and visualizations from the sales report for easy sharing.  
 
-### Análise por Região
-![Análise por Região](link_para_imagem_analise_regiao.png)
+---
 
-## 📂 Estrutura dos Arquivos
-- `Analise_Vendas.pbix`: Relatório completo no Power BI.
-- `Modelo_Vendas.pbit` (opcional): Modelo reutilizável sem dados.
-- `images/`: Pasta com capturas de tela do relatório.
+### 📊 Key Features of the Sales Report  
 
-## ⚙️ Como Usar
-1. Baixe o arquivo **.pbix** (ou **.pbit**) para o seu computador.
-2. Abra no **Power BI Desktop**.
-3. Caso seja um arquivo `.pbit`, conecte à sua base de dados conforme necessário.
-4. Explore os dashboards e ajuste os filtros de acordo com suas necessidades.
+#### Customer Demographics:  
+- **Age Distribution**: Breakdown of customer ages.  
+- **Income Distribution**: Average income and income ranges of customers.  
+- **Customer Count by State**: Total customers categorized by their state of birth.  
 
-## 📝 Notas
-- As fontes de dados foram substituídas por dados fictícios para proteger informações sensíveis.
-- Para usar com seus próprios dados, substitua as conexões no Power BI.
+#### Sales Performance:  
+- **Sales Count and Total Sales Value**:  
+  - Monthly trends visualized through line charts.  
+  - Category-wise distribution displayed in bar charts.  
+- **Payment Methods**: Analysis of payment card types ("A" and "B").  
+
+#### Filters for Exploration:  
+- **State**: Filter data by customer state of birth.  
+- **Sales Channel**: Narrow down data based on the channel through which sales were made.  
+- **Department**: Analyze sales by specific departments.  
+
+---
+
+### 🎯 Purpose of the Financial Model  
+The **`financial-model.pbit`** file serves as a template for performing financial analyses. It allows users to build on the provided structure, connect their own data sources, and generate actionable insights.
+
+---
+
+### 📸 Visual Previews  
+
+#### Dashboard Overview  
+![Dashboard Overview](link_to_overview_image.png)  
+
+#### Monthly Sales Trends  
+![Monthly Sales Trends](link_to_monthly_sales_image.png)  
+
+#### Category-wise Sales  
+![Category-wise Sales](link_to_category_sales_image.png)  
+
+---
+
+### ⚙️ How to Use  
+
+1. **For the Sales Report**:  
+   - Open `sales-report.pbix` in **Power BI Desktop** to explore the interactive dashboard.  
+   - Use the filters to narrow down specific insights.  
+
+2. **For the Financial Model**:  
+   - Open `financial-model.pbit` in **Power BI Desktop**.  
+   - Connect it to your data sources to generate customized financial reports.  
+
+3. **For the PDF Documentation**:  
+   - Open `sales-report-documentation.pdf` to view a summarized version of the sales report.  
+
+---
+
+### 📝 Notes  
+- Sample data was used to create the sales report and financial model to maintain data confidentiality.  
+- To adapt the templates for your use, connect them to your own data sources in Power BI.  
 
 ---
